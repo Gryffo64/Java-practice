@@ -10,9 +10,9 @@ public class Patterns {
         System.out.println("enter a number");
 
         n = sc.nextInt();
-
         int revnum = 0;
 
+        
         while(n > 0){
 
             int lastdigit = n % 10;
@@ -25,5 +25,6 @@ public class Patterns {
         System.out.println(revnum);
     }
 } 
+
     
 
